@@ -1,0 +1,9 @@
+{
+  "pipeline": [
+    "plugins.scan",
+    "plugins.build"
+  ],
+  "meta": {
+    "pack_format": 6
+  }
+}

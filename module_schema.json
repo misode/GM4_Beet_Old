@@ -1,0 +1,54 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9_]+$"
+    },
+    "name": {
+      "type": "string"
+    },
+    "version": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "entrypoints": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "dependencies": {
+      "type": "object"
+    },
+    "site": {
+      "type": "object",
+      "properties": {
+        "description": {
+          "type": "string"
+        },
+        "video": {
+          "type": "string",
+          "format": "uri"
+        },
+        "wiki": {
+          "type": "string",
+          "format": "uri"
+        },
+        "credits": {
+          "type": "object"
+        }
+      },
+      "required": [
+        "description"
+      ]
+    }
+  },
+  "required": [
+    "id",
+    "name",
+    "version"
+  ],
+  "additionalProperties": false
+}

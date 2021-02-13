@@ -1,0 +1,14 @@
+{
+  "id": "gm4_bat_grenades",
+  "name": "Bat Grenades",
+  "version": 1,
+  "entrypoints": ["main"],
+  "site": {
+    "description": "Tired of the uselessness of bats? This module will turn them into tiny furry flying balls of boom!",
+    "video": "https://www.youtube.com/watch?v=uUoEKtte1GQ",
+    "wiki": "https://wiki.gm4.co/wiki/Bat_Grenades",
+    "credits": {
+      "Creator": "Sparks"
+    }
+  }
+}
